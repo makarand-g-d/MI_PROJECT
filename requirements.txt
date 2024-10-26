@@ -1,4 +1,16 @@
 pandas
 numpy
 seaborn
+transformers
+torch
+diffusers
+torch
+torchvision
+transformers
+nltk==3.6.7
+transformers==4.21.1
+torch==1.13.0+cu116  # If you want to use GPU, make sure the version matches your CUDA version; otherwise, just use `torch==1.13.0`.
+diffusers==0.6.0
+rouge==1.0.1
+Pillow==9.1.0  # For image handling
 -e .
